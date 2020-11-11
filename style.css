@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/*
+Theme Name: ponyblog
+Theme URI: http://www.hugpony.com
+Author: pony
+Author URI: http://www.hugpony.com
+Description: 没有喜欢的主题，那我就做一个
+Version: 1.0
+*/
+
+
+
+
+/* -----common start----- */
+:root {
+  --main-text-color:#28a745;
+	--text-size:14px;
+}
+body{
+	background-color: #f3f5f7;
+}
+.radius{
+	border-radius: 5px ;
+}
+.my-card{
+	background-color: #fff;
+	padding: 15px;
+	margin-bottom: 15px;
+}
+/* for card style */
+.my-icon{
+	margin-top: 1px;
+	margin-right: 5px;
+	background-color: var(--main-text-color);
+	width: 6px;
+	height: 20px;
+	border-radius: 1px;
+}
+
+.text-color{
+	color: dimgray;
+}
+
+.my-a{
+	color: dimgray;
+  transition: all .3s;
+  cursor: pointer;
+}
+a:hover{
+	text-decoration:none;
+	color: var(--main-text-color);
+}
+
+.text-size{
+	font-size: var(--text-size);
+}
+
+.top-bottom-10{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.my-card-head{
+	padding-bottom: 5px;
+	border-bottom: 1px var(--main-text-color) solid;
+	flex: 0 0 50px;
+}
+
+footer a{
+	color: rgb(207, 207, 207);
+}
+footer span{
+	color: darkgray;
+}
+#carouselExampleIndicators{
+	margin-bottom: 15px;
+}
+/* -----common end----- */
+
+
+
+
+/* -----single start----- */
+/* Post content main style */
+.post-content {
+	font-size: 16px;
+	line-height: 1.8;
+	margin-bottom: 10px;
+	color:#4d4d4d;
+}
+
+/* Post content style for p and h1 - h6 */
+.post-content blockquote {
+	padding-left: 1em;
+	margin: 1em 3em 1em 0;
+	font-weight: 400;
+	border-left: 4px solid var(--main-text-color);;
+}
+.post-content h1{
+	font-size: 30px;
+}
+.post-content h2{
+	font-size: 26px;
+}
+.post-content h3{
+	font-size: 22px;
+}
+.post-content h4{
+	font-size: 18px;
+}
+.post-content h5{
+	font-size: 15px;
+}
+.post-content h6{
+	font-size: 13px;
+}
+
+/* Post content style for h1 - h3 */
+.post-content h1, .post-content h2, .post-content h3 {
+	margin-top: 35px;
+	position: relative;
+	}
+.post-content h1:after, .post-content h2:after, .post-content h3:after{
+	content: '';
+	display: block;
+	position: absolute;
+	background: var(--main-text-color);
+	opacity: .40;
+	pointer-events: none;
+	border-radius: 15px;
+	left: -2px;
+	bottom: -2px;
+}
+.post-content h1:after {
+	width: 45px;
+	height: 13px;
+}
+.post-content h2:after {
+	width: 40px;
+	height: 11px;
+}
+.post-content h3:after {
+	width: 30px;
+	height: 9px;
+}
+
+/* Code highlight style */
+.hljs{
+	padding: 15px;
+	border-radius: 5px;
+}
+
+/* Post content style for talbe*/
+.post-content table{
+	max-width: 100%;
+	word-break: break-word;
+}
+.post-content table > tbody > tr > td,
+.post-content table > tbody > tr > th,
+.post-content table > tfoot > tr > td,
+.post-content table > tfoot > tr > th,
+.post-content table > thead > tr > td,
+.post-content table > thead > tr > th{
+	padding: 10px;
+	vertical-align: top;
+	border: 1px solid #dee2e6;
+}
+/* Download button style */
+.wp-block-file__button{
+	background-color: var(--main-text-color) !important;
+	border-radius: 3px !important;  
+}
+/* Download button to center */
+.wp-block-file{
+	display: flex;
+	justify-content: center;align-items: center;
+}
+.post-content figure figcaption{
+	font-size: 12px;
+	text-align: center;
+}
+/* -----single end----- */
+
+
+
+/* -----index start----- */
+/* Home links style */
+.links button{
+	margin-bottom: 5px;
+}
+.my-card-home{
+	padding: 10px;
+}
+/* -----index end----- */
