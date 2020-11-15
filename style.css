@@ -4,7 +4,7 @@ Theme Name: ponyblog
 Theme URI: http://www.hugpony.com
 Author: pony
 Author URI: http://www.hugpony.com
-Description: 没有喜欢的主题，那我就做一个
+Description: 商务风，简约风
 Version: 1.0
 */
 
@@ -12,9 +12,66 @@ Version: 1.0
 
 
 /* -----common start----- */
-:root {
-  --main-text-color:#28a745;
-	--text-size:14px;
+
+.flex-1{
+	flex:1;
+}
+.yuan{
+	border-radius:5px
+}
+.hei{
+	color:#222226;
+}
+.pony-box{
+	box-shadow: 0 0 22px -7px rgba(149,148,147,0.3);
+}
+.margin-bottom-20{
+	margin-bottom: 20px;
+}
+.margin-bottom-10{
+	margin-bottom: 10px;
+}
+.bai{
+	background-color:#fff
+}
+.text-no-line{
+	overflow: hidden; text-overflow:ellipsis; white-space: nowrap;
+}
+.text-one-one-line{
+	overflow: hidden;
+	display: -webkit-box ;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+}
+.height-100{
+	height: 100px;
+}
+.padding5{
+	padding: 5px;
+}
+.height-55{
+	height: 55px;
+}
+.marigin-top-10{
+	margin-top: 10px;
+}
+.text-four-line{
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+}
+.text-two-line{
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+.text-three-line{
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
 }
 body{
 	background-color: #f3f5f7;
@@ -26,6 +83,12 @@ body{
 	background-color: #fff;
 	padding: 15px;
 	margin-bottom: 15px;
+}
+.pony-margin-top{
+	margin-top:15px;
+}
+.width-full{
+	width:100%;
 }
 /* for card style */
 .my-icon{
@@ -40,7 +103,12 @@ body{
 .text-color{
 	color: dimgray;
 }
-
+.padding20{
+	padding: 20px;
+}
+.padding10{
+	padding: 10px;
+}
 .my-a{
 	color: dimgray;
   transition: all .3s;
@@ -53,6 +121,9 @@ a:hover{
 
 .text-size{
 	font-size: var(--text-size);
+}
+.text-size-mini{
+	font-size: 12px;
 }
 
 .top-bottom-10{
@@ -74,6 +145,33 @@ footer span{
 }
 #carouselExampleIndicators{
 	margin-bottom: 15px;
+}
+.tag-cloud-link{
+	
+	background-color: #6c757d ;
+	color:#fff;
+	display: inline-block;
+	padding: 0.25em 0.4em;
+	font-size: 75%;
+	font-weight: 700;
+	line-height: 1;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: 0.25rem;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.flex-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.height-30{
+	height: 30px;
+}
+.margin-top-30{
+	margin-top: 30px;
 }
 /* -----common end----- */
 
@@ -179,16 +277,108 @@ footer span{
 	font-size: 12px;
 	text-align: center;
 }
+.show-img{
+	display:none;
+	position: fixed;
+	z-index:99; 
+	width:100%;
+	height:100%;
+	top:0px;
+	background-color:rgba(0,0,0,0.4);
+	justify-content: center;
+	align-items: center;
+}
+.pony-title{
+	font-size: 26px;
+}
 /* -----single end----- */
 
 
 
 /* -----index start----- */
 /* Home links style */
+
 .links button{
 	margin-bottom: 5px;
 }
 .my-card-home{
 	padding: 10px;
+	padding-bottom: 0px;
+}
+.pony-card-img{
+	margin-bottom: 8px;
+	height:80px;
+	width: 140px;
+	border-radius: 5px;
+}
+.post-card-index{
+	cursor:pointer;
 }
 /* -----index end----- */
+
+
+/* -----sidebar start----- */
+.pony-card-text{
+	flex:1;overflow: hidden; text-overflow:ellipsis; white-space: nowrap;
+}
+/* -----sidebar end----- */
+
+
+/* -----comments start----- */
+.comment-padding-bottom{
+	padding-bottom:30px
+}
+.comment-input{
+	margin-right:5px;
+	margin-bottom:5px;    
+	display: inline-block;
+}
+.comment-page{
+	display: flex;
+	justify-content: flex-end!important;
+}
+.comment-page div{
+	display: flex;
+	border: 1px solid rgb(211, 210, 210);;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.comment-page div *{
+	border-left: 1px solid rgb(211, 210, 210);
+	padding: 5px;
+	width:35px;
+}
+.comment-page div a{
+	color: var(--main-text-color);
+}
+.comment-page .current{
+	background-color: var(--main-text-color);
+	color: #fff;
+}
+
+.comment-page div *:first-child{
+	border-left:none;
+}
+/* -----comments end----- */
+
+
+
+/* -----category start----- */
+.post-card{
+	margin-bottom: 10px;
+	height: 100px;
+	padding:10px;
+	cursor:pointer;
+}
+.post-card2{
+	cursor:pointer;
+}
+.post-card-img{
+	border-radius: 0.25rem 0px 0px 0.25rem;
+}
+.post-card-time{
+	text-align: right;position: relative;top: 10px;
+}
+
+/* -----category end----- */

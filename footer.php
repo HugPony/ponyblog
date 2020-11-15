@@ -8,24 +8,25 @@
 			<div class="d-flex text-size">
 				<div style="flex:1">
 					<p><?php bloginfo('title'); ?></p>
-					<span>这是一个财经 编程 网站,在这里我将会为您带来更优质的文章。</span>
+					<span><?php echo get_pony('website_desc'); ?></span>
 				</div>
 				<div style="flex:1">
 					<p>其他功能</p>
 					<div>
-						<a href="#">申请友链</a>
-						<a href="#">合作联系</a>
-						<a href="#">内容投稿</a>
-						<a href="#">开放平台</a>
-						<a href="#">捐赠站长</a>
-						<a href="#">关于</a>
+					<?php 
+						$locations = get_nav_menu_locations();
+						$list = wp_get_nav_menu_items ($locations['foot_menu'] );
+						foreach($list as $link):
+					?>
+						<a target="_blank" href="<?php echo $link->url; ?>"><?php echo $link->title; ?></a>
+					<?php endforeach?>
 					</div>
 				</div>
 			</div>
 			<br>
 			<div class="text-size text-center" >
-				<span>Copyright ©2020 Pony的博客. <a href="#">蜀ICP备XXXXX号-1</a> </span><br>
-				<span> Theme by pony</span>
+				<span><?php echo get_pony('website_copyright'); ?> <a href="<?php echo get_pony('website_beian_url'); ?>"><?php echo get_pony('website_beian_num'); ?></a> </span><br>
+				<span> Theme by <a href="https://github.com/HugPony/ponyblog">pony</a></span>
 			</div>
 		</div>
 	</footer>
@@ -36,3 +37,6 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.bundle.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/highlight.pack.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/function.js"></script>
+<script>
+	<?php echo get_pony('website_tj'); ?>
+</script>

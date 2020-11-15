@@ -4,67 +4,21 @@
 					<div class="my-icon"></div>
 					<span>热门文章</span>
 				</div>
-				<div class="text-color" style="margin-top:15px;">
-					<div class="d-flex top-bottom-10">
-						<svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-							<path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-						</svg>
-						<a class="my-a text-size" href="#">Java如何才能精通？</a>
-					</div>
-					<div class="d-flex top-bottom-10">
-						<svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-							<path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-						</svg>
-						<a class="my-a text-size" href="#">Java如何才能精通？</a>
-					</div>
-					<div class="d-flex top-bottom-10">
-						<svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-							<path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-						</svg>
-						<a class="my-a text-size" href="#">Java如何才能精通？</a>
-					</div>
-					<div class="d-flex top-bottom-10">
-						<svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-							<path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-						</svg>
-						<a class="my-a text-size" href="#">Java如何才能精通？</a>
-					</div>
-					<div class="d-flex top-bottom-10">
-						<svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-							<path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-						</svg>
-						<a class="my-a text-size" href="#">Java如何才能精通？</a>
-					</div>
-					<div class="d-flex top-bottom-10">
-						<svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-							<path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-						</svg>
-						<a class="my-a text-size" href="#">Java如何才能精通？</a>
-					</div>
-					<div class="d-flex top-bottom-10">
-						<svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-							<path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-						</svg>
-						<a class="my-a text-size" href="#">Java如何才能精通？</a>
-					</div>
-					<div class="d-flex top-bottom-10">
-						<svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-							<path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-						</svg>
-						<a class="my-a text-size" href="#">Java如何才能精通？</a>
-					</div>
-					<div class="d-flex top-bottom-10">
-						<svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-							<path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-						</svg>
-						<a class="my-a text-size" href="#">Java如何才能精通？</a>
-					</div>
-					<div class="d-flex top-bottom-10">
-						<svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-							<path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-						</svg>
-						<a class="my-a text-size" href="#">Java如何才能精通？</a>
-					</div>
+				<div class="text-color pony-margin-top">
+					<?php $r = get_most_viewed_format(15,0); 
+						foreach($r as $p):?>
+						<div class="d-flex top-bottom-10">
+							<a target="_blank" class="width-full my-a text-size" href="<?php echo $p['link']; ?>" title="<?php echo $p['title']; ?>">
+								<div class=' flex-center'>
+									<svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+									</svg>
+									<span class='pony-card-text'><?php echo $p['title']; ?>  </span>
+									<span class='text-size-mini'><?php echo $p['views']; ?> 阅读</span>
+								</div>
+							</a>
+						</div>
+					 <?php endforeach; ?>
 				</div>
 			</div>
 			
@@ -73,26 +27,24 @@
 					<div class="my-icon"></div>
 					<span>最新发布</span>
 				</div>
-				<div class="text-color" style="margin-top:15px;">
-					<?php $posts = get_posts( array(
+				<div class="text-color pony-margin-top" >
+					<?php $posts = get_posts( [
 						'numberposts'=> '10'
-					 )); 
-					 foreach($posts as $post):
-					 ?>
-					 <div class="d-flex top-bottom-10">
-						<a style='width:100%' class="my-a text-size" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-						<div class='d-flex' style="justify-content: center;align-items: center;">
-						<svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-							<path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-						</svg>
-						 <span style='flex:1;overflow: hidden; text-overflow:ellipsis; white-space: nowrap;'><?php the_title(); ?>  </span>
-						 <span style='font-size:12px;'><?php the_time('yy-m-d');?></span>
+						]); 
+						foreach($posts as $post):?>
+
+						<div class="d-flex top-bottom-10">
+							<a target="_blank" class="width-full my-a text-size" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+								<div class='flex-center' >
+									<svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+									</svg>
+									<span class='pony-card-text'><?php the_title(); ?>  </span>
+									<span class='text-size-mini'><?php the_time('yy-m-d');?></span>
+								</div>
+							</a>
 						</div>
-						
-						</a>
-					</div>
-					 <?php endforeach; ?>
-					<?php //if($post) : ?>
+					<?php endforeach; ?>
 
 				</div>
 			</div>
@@ -100,16 +52,17 @@
 			<div class="my-card radius">
 				<div class="d-flex my-card-head">
 					<div class="my-icon"></div>
-					<span>标签分类</span>
+					<span>文章标签</span>
 				</div>
-				<div class="text-color" style="margin-top:15px;">
-					<span class="badge badge-secondary">Java网络编程</span>
-					<span class="badge badge-secondary">Java网络编程</span>
-					<span class="badge badge-secondary">Java网络编程</span>
-					<span class="badge badge-secondary">Java网络编程</span>
-					<span class="badge badge-secondary">Java网络编程</span>
-					<span class="badge badge-secondary">Java网络编程</span>
-					<span class="badge badge-secondary">Java网络编程</span>
+				<div class="text-color pony-margin-top">
+					<?php
+						wp_tag_cloud([
+							'number' => '50',
+							'order' => 'RAND'
+						]);
+						
+					?>
+
 				</div>
 			</div>
 
