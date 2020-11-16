@@ -6,7 +6,7 @@
 <input type='hidden' value='<?php echo admin_url(); ?>' id='admin-url'/>
 
 <div id="showImg" class="show-img" >
-	<img id="showImgSrc" src="">
+	<img width='100%' id="showImgSrc" src="">
 </div>
 	<div class="container">
 		<nav class="col-lg-12 text-size pony-box" aria-label="breadcrumb" >

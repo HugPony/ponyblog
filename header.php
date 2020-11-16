@@ -40,10 +40,10 @@
 		<div class="container">
 		<?php $logo= get_pony('website_logo'); ?>
 		<?php if($logo):?>
-			<img width='120px' height='40px' src="<?php echo $logo ?>" alt="logo">
+			<a href="/"><img width='120px' height='40px' src="<?php echo $logo ?>" alt="logo"></a>
 		<?php endif?>
 		<?php if(!$logo):?>
-			<a class="navbar-brand" href="#"><?php bloginfo('title'); ?></a>
+			<a class="navbar-brand" href="/"><?php bloginfo('title'); ?></a>
 		<?php endif?>
 			
 			<div style='background-color:#343a40' class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

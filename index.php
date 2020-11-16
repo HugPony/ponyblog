@@ -3,14 +3,18 @@
 		<div class="my-main col-lg-8 col-md-12 ">
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
-					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				<?php 
+						$locations = get_nav_menu_locations();
+						$list = wp_get_nav_menu_items ($locations['banner_menu'] );
+						$indx2 = 0;
+						foreach($list as $link):
+					?>
+					<li data-target="#carouselExampleIndicators" data-slide-to="	<?php echo $indx2 ;?>" class="<?php echo $indx2 == 0?'active':''; ?>"></li>
+					<?php $indx2 = $indx2 + 1;?>
+				<?php endforeach?>
 				</ol>
 				<div class="carousel-inner radius">
 					<?php 
-						$locations = get_nav_menu_locations();
-						$list = wp_get_nav_menu_items ($locations['banner_menu'] );
 						$indx = 0;
 						foreach($list as $link):
 					?>
